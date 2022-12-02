@@ -1,0 +1,99 @@
+html{
+	border: none;
+	margin: none;
+	padding: none;
+	height: 100%;
+}
+header{
+	top: 0%;
+	position: sticky;
+	width: 100%;
+	background: orangered;
+	margin: none;
+	padding: 15px;
+	border: none;
+	z-index: 0;
+}
+.icone{
+	position: relative;
+	top: 0;
+	left: 0;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	
+	width: 100%;
+	font-family: 'poppins', sans-serif;
+	font:Bebas Neue;	
+	position: relative;
+	margin: 0px;
+	background-image: url(fundo.png);
+	background-size: 100%;
+	height: 1200px;
+	z-index: -1;
+	background-color: grey;
+}
+.header{
+	position: relative;
+}
+.menu{
+	position: absolute;
+	top: 40px;
+	left: 1110px;
+	size: 128px 128px;
+	z-index: 1;
+	padding-right: 50px;
+}
+
+footer{
+	width: 100%;
+	position: absolute;
+	background-color: black;
+	color: white;
+	bottom: 0%;
+}
+.botoes{
+	float: right;
+	position: sticky;
+	z-index: -1;
+}
+.botaoo{
+	height: 128px;
+	width: 128px;
+	margin: 15px;
+	display: table-row;
+}
+.body{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.discurso{
+	position: relative;
+	top: 0;
+	left: 0;
+	border-radius: 15px;
+	width: 410px;
+	border: 15px whitesmoke;
+	padding: 20px;
+	margin: 30px;
+	background-color: whitesmoke;
+	box-shadow: 3px 3px 20px black;
+	z-index: -1;
+}
+.mdsnaguentomaisdiv{
+	color: whitesmoke;
+	width: 200px;
+	height: 200px;
+	background-color: darkmagenta;
+	text-align: center;
+}
+.maisdiv{
+	color: whitesmoke;
+	width: 200px;
+	height: 200px;
+	background-color: mediumspringgreen;
+	text-align: center;
+}
